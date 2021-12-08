@@ -1,0 +1,45 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Asar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asar&family=Milonga&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asar&family=Merriweather:ital,wght@1,700&family=Milonga&display=swap');
+
+
+img {
+  max-height: 250px;
+  max-width: 250px;
+}
+
+#cardHeader{
+  margin-top: 50px;
+  background-color:darkgoldenrod;
+  z-index: 20;
+  color:azure;
+}
+#cities{
+  font-family:'Milonga', cursive;
+  max-width: fit-content;
+  font-size: 150%;
+}
+#Navbar{
+  background-color:black;
+  align-content: center;
+  height: auto;
+  max-width:100%;
+}
+#NavBrand{
+  font-family: 'Asar', serif;
+  max-width: fit-content;
+  font-size: 200%;
+}
+#Today{
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Merriweather', serif;
+  
+}
+#cardText{
+  font-size: 30px;
+}
+#container{
+  width:100%;
+}
