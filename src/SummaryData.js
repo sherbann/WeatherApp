@@ -13,8 +13,8 @@ class SummaryData extends React.Component {
     /*console.log(this.props.sset);*/
     return (
       <>
-        <Table striped bordered hover size="sm">
-          <thead>
+        <Table striped bordered hover size="sm" >
+          <thead style={{fontSize:`100%`}}>
             <tr>
               <th colSpan="2"><sup>o</sup>C</th>
               <th>W</th>
@@ -28,12 +28,12 @@ class SummaryData extends React.Component {
             </tr>
           </tbody>
         </Table>
-        <Table striped bordered hover size="sm">
+        <Table striped bordered hover size="xs">
           <thead>
-            <tr><th>Sunrise</th> <th>Sunset</th></tr>
+            <tr><th>Sunrise</th><th>Sunset</th></tr>
             <tr></tr>
           </thead>
-          <tbody>
+          <tbody >
             <tr><td>{moment((parseInt(this.props.srise) + parseInt(this.props.timezone_offset)) * 1000).format('HH:mm')}</td>
               <td>{moment((parseInt(this.props.sset) + parseInt(this.props.timezone_offset)) * 1000).format('HH:mm')}</td></tr>
           </tbody>

@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 class Today extends React.Component {
@@ -9,7 +8,7 @@ class Today extends React.Component {
     render() {
         return (
             <div className="date" >
-                <p id="Today">Current Date And Time : {this.state.curDT}</p>
+                <p id="Today" style={{ fontSize: `120%`}}>Current Date And Time : {this.state.curDT}</p>
             </div>
         );
     }

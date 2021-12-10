@@ -5,41 +5,63 @@
 
 
 img {
-  max-height: 250px;
-  max-width: 250px;
-}
-
-#cardHeader{
-  margin-top: 50px;
-  background-color:darkgoldenrod;
-  z-index: 20;
-  color:azure;
-}
-#cities{
-  font-family:'Milonga', cursive;
-  max-width: fit-content;
-  font-size: 150%;
+  max-height: 15vw;
+  max-width: 15vw;
 }
 #Navbar{
   background-color:black;
   align-content: center;
   height: auto;
   max-width:100%;
+  z-index: 20;
 }
 #NavBrand{
   font-family: 'Asar', serif;
   max-width: fit-content;
   font-size: 200%;
+  color: yellow;
+}
+#cities{
+  font-family:'Milonga', cursive;
+  width: fit-content;
+  font-size: 110%;
+}
+#navbar-toggler{
+width: 47px;
+height: 34px;
+background-color:cornflowerblue;
+}
+.main-nav:hover
+{
+  color:tomato !important;
+}
+#cardHeader{
+  background-color:indigo;
+  color:azure;
+  font-size: 100%;
+  display:inline-table;
+  transform-box: view-box;
+  gap: 1rem;
+}
+#cardText{
+  font-size: 3vw;
 }
 #Today{
   text-align: center;
-  font-size: 25px;
+  font-size: 5vw;
   font-family: 'Merriweather', serif;
   
 }
-#cardText{
-  font-size: 30px;
+#cardGroup{
+  
+  border-color:green;
+  padding: 0%;
+  margin-bottom: 10px;
 }
 #container{
-  width:100%;
+  width:fit-content;
+  height:auto;
+}
+.date{
+ margin-top: 20px;
 }

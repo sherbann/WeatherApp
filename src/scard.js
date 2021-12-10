@@ -37,12 +37,12 @@ class Scard extends React.Component {
       <>
       
           <Card className="mx-auto text-center mt-2" style={{backgroundImage:`url(${rainBackgroundAnimation})`}}>
-            <Card.Header id="cardHeader"as="h5">{nameDay}{"-"}{date}{"-"}{month}</Card.Header>
-            <Image className="mx-auto" src={image} alt={this.props.alt} />
-            <Card.Body>
+            <Card.Header className="cardHeader" id="cardHeader" as="h5">{nameDay}{"-"}{date}{"-"}{month}</Card.Header>
+            <Image className="mx-auto responsive-image" src={image} alt={this.props.alt} />
+            <Card.Body className="mx-auto text-center mt-2 border-1 cardBody">
               <Description text={this.props.text} />
               <SummaryData key={dataKey} max={maxTemp} min={minTemp} wind={windSpeed}
-               srise = {this.props.srise} sset={this.props.sset} timezone_offset={this.props.timezone_offset} />
+              srise={this.props.srise} sset={this.props.sset} timezone_offset={this.props.timezone_offset} />
             </Card.Body>
           </Card>
       </>
